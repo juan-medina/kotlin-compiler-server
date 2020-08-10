@@ -83,7 +83,7 @@ dependencies {
         exclude(group = "org.junit.vintage", module = "junit-vintage-engine")
     }
     testImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.3.8")
-    kotlinDependency("com.juanmedina:kecs-jvm:1.0.0")
+    kotlinDependency("com.juanmedina:kecs-jvm:1.0.1")
 }
 
 fun buildPropertyFile() {
